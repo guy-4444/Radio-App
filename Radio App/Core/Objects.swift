@@ -1,6 +1,7 @@
 import Foundation
 
-class Playlist: Decodable {
+
+class Playlist: Codable {
         
     var name: String = ""
     var date: Int = 0
@@ -12,10 +13,11 @@ class Playlist: Decodable {
     init() {}
 }
 
-class Song: Decodable {
+class Song: Codable {
     var name: String = ""
     var singer: String = ""
     var isFavorite: Bool? = false
 
     init() {}
 }
+

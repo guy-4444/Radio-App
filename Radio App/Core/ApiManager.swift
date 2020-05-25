@@ -28,7 +28,9 @@ class ApiManager {
             return
         }
         
+        
         if let safeData = data {
+            // How to convert Data object to String
             let dataString = String(data: safeData, encoding: .utf8)
             print("dataString = \(dataString)")
             
@@ -50,7 +52,26 @@ class ApiManager {
         } catch {
             print("error = \(error)")
         }
-
+        
         return nil
     }
 }
+
+
+/*
+ let encoder = JSONEncoder()
+ encoder.outputFormatting = .prettyPrinted
+ let data = try! encoder.encode(playlist)
+ let jsonString: String = String(data: data, encoding: .utf8)!
+ print("jsonString=\(jsonString)")
+ 
+ let defaults = UserDefaults.standard
+ defaults.set(jsonString, forKey: "JSON")
+ 
+ if let stringOne = defaults.string(forKey: "JSON") {
+     print("stringOne=\(stringOne)")
+     var playlist = try decoder.decode(Playlist.self, from: data)
+     print("playlistName=\(playlist.name)")
+
+ }
+ */

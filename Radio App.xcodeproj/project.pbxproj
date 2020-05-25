@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C4092DD247BE29F0087CCAF /* TempLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C4092DC247BE29F0087CCAF /* TempLocationManager.swift */; };
 		8C494BCA2469D330007EB95C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C494BC92469D330007EB95C /* AppDelegate.swift */; };
 		8C494BCC2469D330007EB95C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C494BCB2469D330007EB95C /* SceneDelegate.swift */; };
 		8C494BCE2469D330007EB95C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C494BCD2469D330007EB95C /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C4092DC247BE29F0087CCAF /* TempLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempLocationManager.swift; sourceTree = "<group>"; };
 		8C494BC62469D330007EB95C /* Radio App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Radio App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C494BC92469D330007EB95C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C494BCB2469D330007EB95C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				8C494BDD2469D35D007EB95C /* Closures Example.swift */,
 				8C494BDF2469D9AF007EB95C /* ServerManager.swift */,
 				8C494C0724730792007EB95C /* RegularList.swift */,
+				8C4092DC247BE29F0087CCAF /* TempLocationManager.swift */,
 			);
 			path = "Radio App";
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			files = (
 				8C494BE02469D9AF007EB95C /* ServerManager.swift in Sources */,
 				8C494BCE2469D330007EB95C /* ViewController.swift in Sources */,
+				8C4092DD247BE29F0087CCAF /* TempLocationManager.swift in Sources */,
 				8C494C0824730792007EB95C /* RegularList.swift in Sources */,
 				8C494BDE2469D35D007EB95C /* Closures Example.swift in Sources */,
 				8C494C0B247311A1007EB95C /* Objects.swift in Sources */,
